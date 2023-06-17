@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    gap: 30px;
+    grid-area: header;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section{
+    display: flex;
+    gap: 20px;
+}
+
+#Summary>li{
+   display: inline-flex; 
+   border-right: rgb(216, 216, 226) solid  6px;
+   padding: 10px;
+
+}
+
+
+img{
+    border-radius: 75px;
+}
+
+
+#skills{
+    flex-grow: 2; 
+    flex-wrap: wrap;  
+}
+
+#skills>ul{
+    display: flex;
+    height: 25%;
+}
+
+
+#experience{
+    grid-area: experience;
+}
+#TTU{
+    grid-area: TTU;
+}
+
+#AboutMe{
+    grid-area: about
+}
+
+main{
+    grid-area: main;
+}
