@@ -1,17 +1,25 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Caveat', cursive;
     background-color: black;
-    color: aliceblue;
+    color: rgb(4, 37, 6);
+    margin: 25px;
+    background-image: linear-grandient(to right, rgb(36, 22, 22),rgb(48, 29, 29),rgb(79, 54, 54),brown, 2, 2),rgb(136, 89, 89),rgb(154, 100, 100),rgb(208, 144, 144);
+    font-size: x-large;
 }
 
 header{
     display: flex;
     flex-grow: 1;
     padding: 10px;
-    gap: 30px;
+    gap: 20px;
     grid-area: header;
     justify-content: center;
     margin-top: 10px;
+}
+
+#skills-label{
+    display:flex;
+    align-items: center;
 }
 
 section{
@@ -23,6 +31,7 @@ section{
    display: inline-flex; 
    border-right: rgb(216, 216, 226) solid  6px;
    padding: 10px;
+   padding-right: 20px;
 
 }
 
@@ -32,16 +41,21 @@ img{
 }
 
 
-#skills{
-    flex-grow: 2; 
-    flex-wrap: wrap;  
-}
-
-#skills>ul{
+div>#skills{
     display: flex;
-    height: 25%;
+    width: 75%;
+    flex-wrap: wrap;
+    column-count: 3;
+    row-gap: 30px;
+    
+    
 }
 
+div>#skills>li{
+    list-style: square inside url("sqpurple.gif");
+    padding: 3px;
+
+}
 
 #experience{
     grid-area: experience;
@@ -56,4 +70,11 @@ img{
 
 main{
     grid-area: main;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: solid;
+    border: solid;
+    border-color: white;
 }
