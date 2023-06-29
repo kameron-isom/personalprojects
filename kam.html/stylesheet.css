@@ -1,9 +1,9 @@
 body{
     font-family: 'Caveat', cursive;
-    background-color: black;
+    
     color: rgb(4, 37, 6);
     margin: 25px;
-    background-image: linear-grandient(to right, rgb(36, 22, 22),rgb(48, 29, 29),rgb(79, 54, 54),brown, 2, 2),rgb(136, 89, 89),rgb(154, 100, 100),rgb(208, 144, 144);
+    background-color: rgb(208, 167, 230);
     font-size: x-large;
 }
 
