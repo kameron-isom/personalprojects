@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    background-color: #252525;
   }
   
   *,
@@ -9,6 +10,9 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+  }
+  body{
+    background-color: #252525;
   }
   
   .calculator {
